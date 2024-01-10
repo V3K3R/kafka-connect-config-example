@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kafka-connect-config-example"
+version = "0.1.0"
+description = ""
+authors = ["Dheker Labidi <dheker.labidi@free-now.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.test.dependencies]
+behave = "^1.2.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
